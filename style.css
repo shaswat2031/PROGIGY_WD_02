@@ -1,0 +1,37 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.stopwatch-container {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.laps {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.laps ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.laps li {
+    border-bottom: 1px solid #e5e7eb;
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+.buttons button {
+    transition: transform 0.2s;
+}
+
+.buttons button:hover {
+    transform: scale(1.1);
+}
+
+.laps li:nth-child(odd) {
+    background-color: #f9f9f9;
+}
